@@ -1,0 +1,1 @@
+const tulip = document.querySelector("#tulip");

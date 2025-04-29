@@ -1,4 +1,19 @@
 body {
-    background-color: rgb(237, 211, 215);
-    color: black
+    background-color: pink;
+    background-image: url("../Media/Picture/background2.jpg");
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+
+table {
+    background-color: rgb(185, 179, 179);
+    border: 5px groove pink;
+}
+
+form {
+    background-color: rgb(148, 196, 148);
+    width: 25%;
 }

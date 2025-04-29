@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+    <h1>JC Japanese Club Sign-Up Form</h1>
+    <form>
+        <h2>Student Information</h2>
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="first_name"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="last_name"></td>
+            </tr>
+            <tr>
+                <td>Juniata Email:</td>
+                <td><input type="text" name="school_mail"></td>
+            </tr>
+        </table>
+
+        <br>
+
+        <h2>Questions</h2>
+        <label for="interest">Why are you interested in joining the Japanese club?</label><br>
+        <textarea rows="4" cols="50"> Answer here</textarea><br><br>
+
+        <label for="experience">Do you have any prior experience with the Japanese language or culture?</label><br>
+        <input type="checkbox" value="yes"><label>Yes</label>
+        <input type="checkbox" value="no"><label>No</label><br>
+        <textarea rows="4" cols="50"> Tell us more!</textarea><br><br>
+
+        <h2>Avairability</h2>
+        <label for="availability">Which days of the week are you available for club meetings? (Check all that apply)</label><br>
+        <input type="checkbox" value="monday"><label>Monday</label>
+        <input type="checkbox" value="tuesday"><label>Tuesday</label>
+        <input type="checkbox" value="wednesday"><label>Wednesday</label>
+        <input type="checkbox" value="thursday"><label>Thursday</label>
+        <input type="checkbox" value="friday"><label>Friday</label><br><br>
+
+        <label for="weekend">Are you available for weekend events or activities?</label><br>
+        <input type="checkbox" value="yes"><label>Yes</label>
+        <input type="checkbox" value="no"><label>No</label><br><br>
+
+        <input type="submit" value="Sign Up!">
+        <input type="reset" value="Reset">
+    </form>
+</body>

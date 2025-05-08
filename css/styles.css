@@ -4,6 +4,10 @@ body {
     background-image: url("../images/IMG_2498.jpeg");
     background-size: cover;
     background-position: center;
+    width: 100%;
+    display: grid;
+    height: 100vh;
+    place-content: center;
 }
 
 .center-form {
